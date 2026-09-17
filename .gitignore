@@ -1,0 +1,22 @@
+1/
+2/
+3/
+Chart/
+
+# Приховані службові папки Terraform (з крапкою!)
+.terraform/
+**/.terraform/
+
+# Файли стану
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Змінні з секретами
+*.tfvars
+*.tfvars.json
+
+# Логи
+*.log
+**/.terraform.lock.hcl
+*.lock.hcl
